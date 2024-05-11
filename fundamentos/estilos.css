@@ -1,0 +1,23 @@
+h1{
+  text-align: center;
+}
+
+img{
+  width: 300px;
+  height: 250px;
+  display: block;
+  margin: auto;
+}
+
+.galeria{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+/*estilo descendente*/
+.galeria div{
+  text-align: center;
+}
