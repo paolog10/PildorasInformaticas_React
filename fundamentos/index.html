@@ -3,27 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./estilos.css">
+  <link rel="stylesheet" href="../fundamentos/estilos/estilos.css">
+  <script src="../fundamentos/script/script.js"></script>
   <title>Galería de imágenes</title>
 </head>
 <body>
   <h1>Galería de Imágenes</h1>
 
-  <div class="galeria">
+  <div class="formulario-carga-imagen">
+    <input type="text" id="imagenURL" placeholder="Ingrese URL de la imágen">
+    <input type="text" id="pieFoto" placeholder="Ingrese pie de foto">
+    <button onclick="agregaImagen()">Agregar Imágen</button>
+  </div>
+
+  <div class="galeria" id="galeriaImagenes">
     <div>
-      <img src="./imgs/paisaje1.jpg" alt="paisaje1">
+      <img 
+        src="./imgs/paisaje1.jpg" 
+        alt="paisaje1"
+      >
       <p>Paisaje 1</p>
     </div>
+    
     <div>
-      <img src="./imgs/paisaje2.jpg" alt="paisaje2">
+      <img 
+        src="./imgs/paisaje2.jpg" 
+        alt="paisaje2"
+      >
       <p>Paisaje 2</p>
     </div>
+    
     <div>
-      <img src="./imgs/paisaje3.jpg" alt="paisaje3">
+      <img 
+        src="./imgs/paisaje3.jpg"
+        alt="paisaje3"
+      >
       <p>Paisaje 3</p>
     </div>
+    
     <div>
-      <img src="./imgs/paisaje4.jpg" alt="paisaje4">
+      <img 
+        src="./imgs/paisaje4.jpg" 
+        alt="paisaje4"
+      >
       <p>Paisaje 4</p>
     </div>
   </div>
